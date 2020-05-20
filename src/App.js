@@ -1,9 +1,11 @@
-import React, { Component } from 'react';
+import React, { useState } from 'react';
+import TopicBrowser from './components/TopicBrowser/TopicBrowser';
 
-class App extends Component {
-  render() {
-    
-  }
+export default function App() {
+  // const [state, setState] = useState('');
+  return (
+    <div>
+      <TopicBrowser/>
+    </div>
+  )
 }
-
-export default App;
