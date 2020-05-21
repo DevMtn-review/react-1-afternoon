@@ -8,7 +8,7 @@ import Sum from "../Topics/Sum";
 export default function TopicBrowser() {
     return(
         <div>
-            <p>Hewwo  Worwd 🥺</p>
+            <p>Topics</p>
             <EvenAndOdd/>
             <FilterObject/>
             <FilterString/>
